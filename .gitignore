@@ -5,7 +5,9 @@
 *.log
 .classpath
 .project
-.settings
+/.settings
+/src/main/java/com/ucb/tdd/TresEnRaya.java
+/src/test/java/com/ucb/tdd/TresEnRayaTest.java
 
 # Package Files #
 *.jar
@@ -16,3 +18,4 @@
 *.tar.gz
 *.rar
 
+/target
