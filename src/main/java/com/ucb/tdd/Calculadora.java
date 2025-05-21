@@ -4,10 +4,10 @@ public class Calculadora {
 	
 	public String suma(String sumandos) throws Exception {
 		
-		
+		/* 
 		if(sumandos.equals("")) {
 			return "0";
-		}
+		}*/
 		
 		String[] s = sumandos.split(",");
 		
