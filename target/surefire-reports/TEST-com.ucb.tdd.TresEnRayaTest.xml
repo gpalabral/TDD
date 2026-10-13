@@ -1,72 +1,127 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="com.ucb.tdd.TresEnRayaTest" time="0.019" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.ucb.tdd.TresEnRayaTest" time="0.026" tests="10" errors="0" skipped="0" failures="0" flakes="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.14+8-LTS-191"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/gustavo/Documents/G2/GUS/UCB/Maestria Full Stack/Modulo de Integración y Despliegue Continuo/Source/TDD"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/gustavo/Documents/G2/GUS/UCB/Maestria Full Stack/Modulo de Integración y Despliegue Continuo/Source/TDD"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17.0.14+8-LTS-191"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/2f/757h8l7553dbc83bx739t7v40000gn/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/gustavo/apps/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="java.specification.version" value="27"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/gustavo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="12.7.6"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/gustavo"/>
-    <property name="user.timezone" value="America/La_Paz"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="gustavo"/>
-    <property name="java.class.path" value="/Users/gustavo/apps/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/test-classes:/Users/gustavo.palabral/Documents/MyCoding/TDD/target/classes:/Users/gustavo.palabral/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/gustavo.palabral/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile test"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="27"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BO"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-27.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261012231650257_3.jar /Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire 2026-10-12T23-16-49_121-jvmRun1 surefire-20261012231650257_1tmp surefire_0-20261012231650257_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/test-classes:/Users/gustavo.palabral/Documents/MyCoding/TDD/target/classes:/Users/gustavo.palabral/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/gustavo.palabral/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/gustavo.palabral"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17.0.14"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
-    <property name="java.specification.maintenance.version" value="1"/>
-    <property name="maven.home" value="/Users/gustavo/apps/apache-maven-3.3.9"/>
+    <property name="java.version.date" value="2026-09-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-27.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2025-01-21"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="basedir" value="/Users/gustavo.palabral/Documents/MyCoding/TDD"/>
+    <property name="java.vm.compressedOopsMode" value="Non-zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261012231650257_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="27+35-2325"/>
+    <property name="user.name" value="gustavo.palabral"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.6.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/gustavo.palabral/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/fl/9c8bj_jj0kd934855c397dcr0000gn/T/"/>
+    <property name="java.version" value="27"/>
+    <property name="user.dir" value="/Users/gustavo.palabral/Documents/MyCoding/TDD"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/gustavo.palabral/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="27+35-2325"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="71.0"/>
   </properties>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="siPrimerTurnoXSiguienteMas" time="0.007"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="cuandoLugarOcupadoLanzarExcepcion" time="0.006"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="siLlenaDiagonalOpuestaEntoncesGana" time="0.001"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="cuandoNoHayGanador" time="0"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="siPrimerTurnoEntoncesJuegaX" time="0"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="siLlenaColumnaEntoncesGana" time="0.001"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="siLlenaFilaEntoncesGana" time="0.001"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="siLlenaDiagonalEntoncesGana" time="0.001"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="cuandoFueraYlanzarExcepcion" time="0.001"/>
-  <testcase classname="com.ucb.tdd.TresEnRayaTest" name="cuandoFueraXlanzarExcepcion" time="0.001"/>
+  <testcase name="siPrimerTurnoXSiguienteMas" classname="com.ucb.tdd.TresEnRayaTest" time="0.01">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@79ad8b2f
+Ocupando posicion: 2, 1
+Ocupando posicion: 2, 2
+]]></system-out>
+  </testcase>
+  <testcase name="cuandoLugarOcupadoLanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.003">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@45b9a632
+Ocupando posicion: 1, 3
+]]></system-out>
+  </testcase>
+  <testcase name="siLlenaDiagonalOpuestaEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.002">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@2b6faea6
+Ocupando posicion: 1, 2
+Ocupando posicion: 1, 3
+Ocupando posicion: 1, 1
+Ocupando posicion: 2, 2
+Ocupando posicion: 2, 3
+Ocupando posicion: 3, 1
+]]></system-out>
+  </testcase>
+  <testcase name="cuandoNoHayGanador" classname="com.ucb.tdd.TresEnRayaTest" time="0.0">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@670002
+Ocupando posicion: 2, 1
+]]></system-out>
+  </testcase>
+  <testcase name="siPrimerTurnoEntoncesJuegaX" classname="com.ucb.tdd.TresEnRayaTest" time="0.0">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@49c386c8
+]]></system-out>
+  </testcase>
+  <testcase name="siLlenaColumnaEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@6e0dec4a
+Ocupando posicion: 1, 1
+Ocupando posicion: 1, 2
+Ocupando posicion: 2, 1
+Ocupando posicion: 2, 2
+Ocupando posicion: 3, 1
+]]></system-out>
+  </testcase>
+  <testcase name="siLlenaFilaEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@5ccddd20
+Ocupando posicion: 2, 1
+Ocupando posicion: 1, 1
+Ocupando posicion: 3, 1
+Ocupando posicion: 1, 2
+Ocupando posicion: 2, 2
+Ocupando posicion: 1, 3
+]]></system-out>
+  </testcase>
+  <testcase name="siLlenaDiagonalEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@1f3f4916
+Ocupando posicion: 1, 1
+Ocupando posicion: 1, 2
+Ocupando posicion: 2, 2
+Ocupando posicion: 1, 3
+Ocupando posicion: 3, 3
+]]></system-out>
+  </testcase>
+  <testcase name="cuandoFueraYlanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@4b5a5ed1
+]]></system-out>
+  </testcase>
+  <testcase name="cuandoFueraXlanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@3cc2931c
+]]></system-out>
+  </testcase>
 </testsuite>
