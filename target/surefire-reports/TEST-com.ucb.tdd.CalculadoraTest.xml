@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BO"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-27.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261012231650257_3.jar /Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire 2026-10-12T23-16-49_121-jvmRun1 surefire-20261012231650257_1tmp surefire_0-20261012231650257_2tmp"/>
+    <property name="sun.java.command" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261019203942383_3.jar /Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire 2026-10-19T20-39-42_346-jvmRun1 surefire-20261019203942383_1tmp surefire_0-20261019203942383_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/test-classes:/Users/gustavo.palabral/Documents/MyCoding/TDD/target/classes:/Users/gustavo.palabral/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/gustavo.palabral/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261012231650257_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261019203942383_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="27+35-2325"/>
@@ -58,9 +58,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="71.0"/>
   </properties>
-  <testcase name="cuando3numerosRetornarSuma" classname="com.ucb.tdd.CalculadoraTest" time="0.001"/>
-  <testcase name="cuandoNumerosMayor1000Ignorar" classname="com.ucb.tdd.CalculadoraTest" time="0.0"/>
-  <testcase name="cuando2numerosRetornarSuma" classname="com.ucb.tdd.CalculadoraTest" time="0.001"/>
+  <testcase name="cuando3numerosRetornarSuma" classname="com.ucb.tdd.CalculadoraTest" time="0.0"/>
+  <testcase name="cuandoNumerosMayor1000Ignorar" classname="com.ucb.tdd.CalculadoraTest" time="0.001"/>
+  <testcase name="cuando2numerosRetornarSuma" classname="com.ucb.tdd.CalculadoraTest" time="0.0"/>
   <testcase name="paraNumerosNegativosLanzarException" classname="com.ucb.tdd.CalculadoraTest" time="0.0"/>
-  <testcase name="siCadenaVaciaRetornarCero" classname="com.ucb.tdd.CalculadoraTest" time="0.0"/>
+  <testcase name="siCadenaVaciaRetornarCero" classname="com.ucb.tdd.CalculadoraTest" time="0.001"/>
 </testsuite>

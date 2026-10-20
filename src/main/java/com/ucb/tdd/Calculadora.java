@@ -4,39 +4,42 @@ public class Calculadora {
 	
 	public String suma(String sumandos) throws Exception {
 		
-		 if(sumandos.equals("")){
+		if(sumandos!=null && sumandos.equals("")){
 			return "0";
-		 }
-
-		 validarNull(sumandos);
-		
-		String[] sumandosV=sumandos.split(",");
-		
-		Integer suma = new Integer(0);
-
-		for(int i=0; i< sumandosV.length; i++){
-			Integer numero = new Integer(sumandosV[i]);
-
-			if(numero < 0){
-				throw new Exception("Nos enviaron un numero negativo");
-			}
-			if(numero <= 1000){
-				suma = suma + numero;
-			}
-			
-			
 		}
-		return suma.toString();
+
+		int total = 0;
+		String[] sums = sumandos.split(",");
+		for(int i = 0;i < sums.length ; i++) {
+			int s = Integer.parseInt(sums[i]);
+			if(s <= 1000) {
+				total = total + s;
+			}
+			if(s < 0) {
+				throw new Exception("El numero es negativo");
+			}
+		}
+		return String.valueOf(total);
 	}
 
-	private void validarNull(String sumandos) throws Exception {
-		if(sumandos == null){
-			throw new Exception("Nos estan  enviando un valor null");
-		 }
-	}
 	
 	
 	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	/*
 	public String suma(String sumandos) throws Exception {
@@ -60,7 +63,14 @@ public class Calculadora {
 			return (new Integer(suma)).toString();
 		}
 			
-	}*/
+	}
+	
+	private void validarNull(String sumandos) throws Exception {
+		if(sumandos == null){
+			throw new Exception("Nos estan  enviando un valor null");
+		 }
+	}
+	*/
 	
 	
 	

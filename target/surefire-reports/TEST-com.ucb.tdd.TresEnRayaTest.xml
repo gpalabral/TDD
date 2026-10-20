@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.ucb.tdd.TresEnRayaTest" time="0.026" tests="10" errors="0" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.ucb.tdd.TresEnRayaTest" time="0.025" tests="10" errors="0" skipped="0" failures="0" flakes="0">
   <properties>
     <property name="java.specification.version" value="27"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BO"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-27.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261012231650257_3.jar /Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire 2026-10-12T23-16-49_121-jvmRun1 surefire-20261012231650257_1tmp surefire_0-20261012231650257_2tmp"/>
+    <property name="sun.java.command" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261019203942383_3.jar /Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire 2026-10-19T20-39-42_346-jvmRun1 surefire-20261019203942383_1tmp surefire_0-20261019203942383_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/test-classes:/Users/gustavo.palabral/Documents/MyCoding/TDD/target/classes:/Users/gustavo.palabral/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/gustavo.palabral/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261012231650257_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/gustavo.palabral/Documents/MyCoding/TDD/target/surefire/surefirebooter-20261019203942383_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="27+35-2325"/>
@@ -58,19 +58,19 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="71.0"/>
   </properties>
-  <testcase name="siPrimerTurnoXSiguienteMas" classname="com.ucb.tdd.TresEnRayaTest" time="0.01">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@79ad8b2f
+  <testcase name="siPrimerTurnoXSiguienteMas" classname="com.ucb.tdd.TresEnRayaTest" time="0.009">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@1df82230
 Ocupando posicion: 2, 1
 Ocupando posicion: 2, 2
 ]]></system-out>
   </testcase>
-  <testcase name="cuandoLugarOcupadoLanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.003">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@45b9a632
+  <testcase name="cuandoLugarOcupadoLanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.002">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@25d250c6
 Ocupando posicion: 1, 3
 ]]></system-out>
   </testcase>
   <testcase name="siLlenaDiagonalOpuestaEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.002">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@2b6faea6
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@778d1062
 Ocupando posicion: 1, 2
 Ocupando posicion: 1, 3
 Ocupando posicion: 1, 1
@@ -79,17 +79,17 @@ Ocupando posicion: 2, 3
 Ocupando posicion: 3, 1
 ]]></system-out>
   </testcase>
-  <testcase name="cuandoNoHayGanador" classname="com.ucb.tdd.TresEnRayaTest" time="0.0">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@670002
+  <testcase name="cuandoNoHayGanador" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@1f0f1111
 Ocupando posicion: 2, 1
 ]]></system-out>
   </testcase>
-  <testcase name="siPrimerTurnoEntoncesJuegaX" classname="com.ucb.tdd.TresEnRayaTest" time="0.0">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@49c386c8
+  <testcase name="siPrimerTurnoEntoncesJuegaX" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@56528192
 ]]></system-out>
   </testcase>
-  <testcase name="siLlenaColumnaEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@6e0dec4a
+  <testcase name="siLlenaColumnaEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.002">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@96def03
 Ocupando posicion: 1, 1
 Ocupando posicion: 1, 2
 Ocupando posicion: 2, 1
@@ -98,7 +98,7 @@ Ocupando posicion: 3, 1
 ]]></system-out>
   </testcase>
   <testcase name="siLlenaFilaEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@5ccddd20
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@1ed1993a
 Ocupando posicion: 2, 1
 Ocupando posicion: 1, 1
 Ocupando posicion: 3, 1
@@ -108,7 +108,7 @@ Ocupando posicion: 1, 3
 ]]></system-out>
   </testcase>
   <testcase name="siLlenaDiagonalEntoncesGana" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@1f3f4916
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@794cb805
 Ocupando posicion: 1, 1
 Ocupando posicion: 1, 2
 Ocupando posicion: 2, 2
@@ -116,12 +116,12 @@ Ocupando posicion: 1, 3
 Ocupando posicion: 3, 3
 ]]></system-out>
   </testcase>
-  <testcase name="cuandoFueraYlanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@4b5a5ed1
+  <testcase name="cuandoFueraYlanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.0">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@59d016c9
 ]]></system-out>
   </testcase>
-  <testcase name="cuandoFueraXlanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.001">
-    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@3cc2931c
+  <testcase name="cuandoFueraXlanzarExcepcion" classname="com.ucb.tdd.TresEnRayaTest" time="0.0">
+    <system-out><![CDATA[Inicializando Prueba.... com.ucb.tdd.TresEnRaya@20d28811
 ]]></system-out>
   </testcase>
 </testsuite>

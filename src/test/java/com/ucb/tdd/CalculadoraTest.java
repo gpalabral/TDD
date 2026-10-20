@@ -1,9 +1,8 @@
 package com.ucb.tdd;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import org.junit.Rule;
+import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 public class CalculadoraTest {
@@ -13,6 +12,9 @@ public class CalculadoraTest {
 
 	@Test
 	public void siCadenaVaciaRetornarCero() throws Exception{
+
+		//REQ: Cuando se ingrese una cadena vacia, se debe retornar cero
+
 		//1. Preparacion de la prueba
 		Calculadora c = new Calculadora();
 		
@@ -25,6 +27,9 @@ public class CalculadoraTest {
 
 	@Test
 	public void cuando2numerosRetornarSuma() throws Exception{
+
+		//REQ: Para 2 números delimitados por coma, se debe retornar la suma
+
 		//1. Preparacion de la prueba
 		Calculadora c = new Calculadora();
 		
@@ -40,8 +45,11 @@ public class CalculadoraTest {
 		assertEquals("0",c.suma("0,0"));
 	}
 
-	@Test
+@Test
 	public void cuando3numerosRetornarSuma() throws Exception{
+
+		//REQ: Para 3 números delimitados por coma, se debe retornar la suma
+
 		//1. Preparacion de la prueba
 		Calculadora c = new Calculadora();
 		
@@ -53,13 +61,18 @@ public class CalculadoraTest {
 
 		//Mas Pruebas
 		assertEquals("125",c.suma("25,0,100"));
+
 		exception.expect(Exception.class);
 		assertEquals("3",c.suma("2,2,-1"));
+		
 		assertEquals("1000",c.suma("0,0,1000"));
 	}
-	
+
 	@Test
 	public void cuandoNumerosMayor1000Ignorar() throws Exception{
+
+		//REQ: Para números mayores a 1000, se deben ignorar
+
 		//1. Preparacion de la prueba
 		Calculadora c = new Calculadora();
 		
@@ -71,27 +84,39 @@ public class CalculadoraTest {
 
 		//Mas Pruebas
 		assertEquals("125",c.suma("25,10000,100"));
-		exception.expect(Exception.class);
-		assertEquals("-6",c.suma("2,2,-10"));
+		//assertEquals("-6",c.suma("2,2,-10"));
 		assertEquals("1000",c.suma("0,0,1000"));
 	}
-	
+
 	@Test
 	public void paraNumerosNegativosLanzarException() throws Exception{
+
+		//REQ: Para números negativos, se debe lanzar una excepción
+
 		
 		//1. Preparacion de la prueba
 		Calculadora c = new Calculadora();
-				
-		//2. Logica de la prueba
 		
+		exception.expect(Exception.class);
+		//2. Logica de la prueba
+		String resultadoActual = c.suma("2,2,-10");
 				
 		//3. Verificacion o Assert
-		exception.expect(Exception.class);
 
-		assertEquals("10",c.suma("1001,-10"));
+		assertEquals("10",resultadoActual);
 		
 	}
+
+
+	/* 
 	
+
+	
+	
+	
+	
+	
+	*/
 
 
 
