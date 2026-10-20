@@ -8,7 +8,7 @@ public class Calculadora {
 			return "0";
 		}
 
-		int total = 0;
+		int total = 1;
 		String[] sums = sumandos.split(",");
 		for(int i = 0;i < sums.length ; i++) {
 			int s = Integer.parseInt(sums[i]);
